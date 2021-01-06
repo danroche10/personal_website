@@ -1,0 +1,82 @@
+.Text1 {
+  color: #000;
+  margin-top: 17px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.2em;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hello {
+  width: 100%;
+  height: 100%;
+  background-color: #e8e8e8;
+  margin-right: -1%;
+  margin-left: -1%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graph {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidey {
+    visibility: hidden;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.projectImage {
+  width: 90%;
+  height: 90%;
+}
+
+.projectImage:hover {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.contactImage {
+  margin-right: 2%;
+}
+
+.try {
+  text-decoration: underline;
+}
