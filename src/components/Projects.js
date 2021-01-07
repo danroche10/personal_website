@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="Text1">
       You can see three of my projects below - click on the project image to
-      view the website and click on the github logo to see view the code. My
+      view the website and click on the github logo to view the code. My
       plan is to turn Leyendo into a real side project so stay tuned!
       <br></br>
       <br></br>
